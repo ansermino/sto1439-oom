@@ -1,0 +1,1 @@
+{ "name": "sto1439-oom", "version": "1.0.0", "private": true, "scripts": { "build": "node -e \"const a=[];for(;;)a.push(Buffer.alloc(1e8,1))\"" } }
